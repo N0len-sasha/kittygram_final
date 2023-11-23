@@ -101,7 +101,7 @@ jobs:
         with:
           context: ./frontend/
           push: true
-          tags: n0len/taski_frontend:latest
+          tags: n0len/kittygram_frontend:latest
 
   build_gateway_and_push_to_docker_hub:
     name: Push gateway Docker image to DockerHub
@@ -121,4 +121,4 @@ jobs:
         with:
           context: ./gateway/
           push: true
-          tags: n0len/taski_gateway:latest
+          tags: n0len/kittygram_gateway:latest
