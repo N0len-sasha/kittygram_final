@@ -59,8 +59,8 @@ jobs:
       - name: Push to DockerHub
         uses: docker/build-push-action@v4
         with:
-          context: ./
-          dockerfile: ./backend/Dockerfile
+          run: ls
+          context: ./backend/
           push: true
           tags: n0len/kittigram_backend:latest
 
